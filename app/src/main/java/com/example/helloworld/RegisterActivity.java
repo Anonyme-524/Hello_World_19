@@ -88,10 +88,11 @@ public class RegisterActivity extends AppCompatActivity {
         mBinding.radioGroupSex.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if (checkedId==R.id.radio_man){
-                    sex=mBinding.radioMan.getText().toString();
+                if (checkedId == R.id.radio_man) {
+                    sex = mBinding.radioMan.getText().toString();
+                } else {
+                    sex = mBinding.radioWomen.getText().toString();
                 }
-                else sex=mBinding.radioWomen.getText().toString();
             }
         });
     }

@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".UpdatePwdMainActivity"></activity>
-        <activity android:name=".ResetPwdMainActivity" />
+        <activity android:name=".UpdatePwdActivity"></activity>
+        <activity android:name=".ResetPwdActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".UI2Activity" />
         <activity android:name=".UIActivity" />

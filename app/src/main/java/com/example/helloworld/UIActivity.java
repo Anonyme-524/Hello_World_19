@@ -45,7 +45,7 @@ public class UIActivity extends AppCompatActivity implements View.OnClickListene
         mButtonRight = findViewById(R.id.button_right);
         mSwitch = findViewById(R.id.button_switch);
         mEditTextNumber = findViewById(R.id.edit_number);
-        mButtonOK = findViewById(R.id.button_ok);
+        mButtonOK = findViewById(R.id.button_next);
         mProgressBar = findViewById(R.id.progress_bar);
         mRadioGroup = findViewById(R.id.radio_group);
         mImageView = findViewById(R.id.image_view);
@@ -82,7 +82,7 @@ public class UIActivity extends AppCompatActivity implements View.OnClickListene
             case R.id.button_right:
                 mTextView.setText(getResources().getString(R.string.button_right));
                 break;
-            case R.id.button_ok:
+            case R.id.button_next:
                 String s = mEditTextNumber.getText().toString();
                 if (s.equals("")){
                     Toast.makeText(getApplicationContext(),getResources().getString(R.string.OK_hint),Toast.LENGTH_SHORT).show();

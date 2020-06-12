@@ -50,5 +50,10 @@
     <string name="register_phone">手机号码</string>
     <string name="register_sms">接收信息推送</string>
     <string name="welcome">欢迎使用</string>
+    <string name="button_next">下一步</string>
+    <string name="change_password">修改密码</string>
+    <string name="New_pwd">新密码</string>
+    <string name="Confirm_password">确认密码</string>
+    <string name="security">安全</string>
 
 </resources>

@@ -76,7 +76,7 @@ public class UI2Activity extends AppCompatActivity {
                 mBinding.textView.setText(getResources().getString(R.string.button_right));
             }
         });
-        mBinding.buttonOk.setOnClickListener(new View.OnClickListener() {
+        mBinding.buttonNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String s = mBinding.editNumber.getText().toString();

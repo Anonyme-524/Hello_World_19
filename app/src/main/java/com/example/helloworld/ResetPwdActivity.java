@@ -58,9 +58,10 @@ public class ResetPwdActivity extends AppCompatActivity {
                     toast = "很抱歉，信息不匹配，无法重置密码";
                     } else {
                         Intent intent = new Intent(ResetPwdActivity.this, UpdatePwdActivity.class);
-                        intent.putExtra("phone_",phone);
+                        intent.putExtra("phone",phone);
                         startActivity(intent);
                         toast = "请填写新的密码";
+                        finish();
                     }
                 }
                 Toast.makeText(ResetPwdActivity.this,toast,Toast.LENGTH_LONG).show();
